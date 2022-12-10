@@ -1,2 +1,2 @@
-# gberruet.github.io
-Sitio personal
+# Gastón Berruet
+Analista de sistemas & Desarrollador Web
