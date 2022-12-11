@@ -8,7 +8,7 @@
 */
 /* ======= Base ======= */
 body {
-  font-family: 'Sura', arial, sans-serif;
+  font-family: 'Sura';
   color: #444;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
@@ -114,7 +114,7 @@ pre code {
 }
 
 .header.navbar-fixed-top .logo {
-  color: #17baef;
+  color: #3498DB;
 }
 
 .header .logo {
@@ -143,7 +143,7 @@ pre code {
   padding: 8px 8px;
   right: 10px;
   top: 10px;
-  background: #074f66;
+  background: #E74C3C;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
