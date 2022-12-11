@@ -114,15 +114,15 @@ pre code {
 }
 
 .header.navbar-fixed-top .logo {
-  color: #17baef;
+  color: #3498DB;
 }
 
 .header .logo {
   margin: 0;
   font-size: 26px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Sura';
   font-weight: bold;
-  color: #fff;
+  color: #E74C3C;
 }
 
 .header .logo:hover {
