@@ -119,10 +119,10 @@ pre code {
 
 .header .logo {
   margin: 0;
-  font-size: 26px;
-  font-family: 'Montserrat', sans-serif;
+  font-size: 42px;
+  font-family: 'Sura';
   font-weight: bold;
-  color: #fff;
+  color: #E74C3C;
 }
 
 .header .logo:hover {
