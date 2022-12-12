@@ -98,7 +98,7 @@ pre code {
 
 /* ======= Header ======= */
 .header {
-  background: #17baef;
+  background: #fff;
   color: #fff;
   position: fixed;
   width: 100%;
@@ -114,7 +114,7 @@ pre code {
 }
 
 .header.navbar-fixed-top .logo {
-  color: #3498DB;
+  color: #ff345f;
 }
 
 .header .logo {
