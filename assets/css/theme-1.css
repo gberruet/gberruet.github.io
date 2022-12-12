@@ -18,11 +18,11 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Sura';
   font-weight: 700;
-  color: #17baef;
+  color: #ff345f;
 }
 
 a {
-  color: #17baef;
+  color: #ff345f;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -31,7 +31,7 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: #0e98c5;
+  color: #ff345f;
 }
 
 .btn, a.btn {
@@ -209,7 +209,7 @@ pre code {
 }
 
 .header .main-nav .nav .nav-item.active .nav-link {
-  color: #17baef;
+  color: #ff345f;
   background: none;
 }
 
