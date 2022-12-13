@@ -8,6 +8,8 @@
 */
 /* ======= Base ======= */
 body {
+  margin-left: auto;
+  margin-right: auto;
   font-family: 'Sura';
   color: #444;
   font-size: 16px;
@@ -110,7 +112,7 @@ pre code {
   -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
-  height: 70px;
+  height: 90px;
 }
 
 .header.navbar-fixed-top .logo {
@@ -118,7 +120,8 @@ pre code {
 }
 
 .header .logo {
-  margin: 0;
+  margin-top: 0;
+  margin-left: 10%;
   font-size: 42px;
   font-family: 'Sura';
   font-weight: bold;
@@ -130,7 +133,7 @@ pre code {
 }
 
 .header .main-nav .navbar-collapse {
-  padding: 0;
+  padding-right: 10%;
 }
 
 .header .main-nav .navbar-toggler {
@@ -143,7 +146,8 @@ pre code {
   padding: 8px 8px;
   right: 10px;
   top: 10px;
-  background: #E74C3C;
+  background: #ff345f;
+;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -288,7 +292,7 @@ pre code {
 }
 
 .about .title {
-  color: #074f66;
+  color: #09617e;
   margin-top: 0;
   margin-bottom: 60px;
 }
@@ -328,18 +332,18 @@ pre code {
 /* ======= Features Section ======= */
 .features {
   padding: 80px 0;
-  background: #17baef;
+  background: #09617e;
   color: #fff;
 }
 
 .features .title {
-  color: #074f66;
+  color: #fff;
   margin-top: 0;
   margin-bottom: 30px;
 }
 
 .features a {
-  color: #074f66;
+  color: #fff;
 }
 
 .features a:hover {
@@ -546,8 +550,8 @@ pre code {
 
 .contact .author-message .speech-bubble {
   margin-left: 155px;
-  background: #10b2e7;
-  color: #074f66;
+  background: #09617e;
+  color: #fff;
   padding: 30px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -561,7 +565,7 @@ pre code {
 }
 
 .contact .author-message .speech-bubble .sub-title {
-  color: #074f66;
+  color: #fff;
   font-size: 16px;
   margin-top: 0;
   margin-bottom: 30px;
@@ -581,7 +585,7 @@ pre code {
   height: 0;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-right: 10px solid #10b2e7;
+  border-right: 10px solid #09617e;
 }
 
 .contact .author-message .speech-bubble .source {
@@ -639,7 +643,7 @@ pre code {
 }
 
 .contact .social-icons a:hover {
-  background: #e6ad14;
+  background: #ff345f;
 }
 
 .contact .social-icons a .svg-inline--fa {
@@ -682,7 +686,7 @@ pre code {
     margin-left: 10px;
   }
   .header.navbar-fixed-top {
-    height: 70px;
+    height: 90px;
   }
   .promo .btns .btn {
     margin-right: 0;
