@@ -287,6 +287,7 @@ pre code {
 }
 
 .about .title {
+  position: relative;
   color: #09617e;
   margin-top: 20px;
   margin-bottom: 25px;
@@ -667,6 +668,12 @@ pre code {
   color: #fb866a;
 }
 
+.presentacion {
+  width: 400px;
+  position: absolute;
+  left: 30%;
+  }
+
 @media (max-width: 890px) {
   .header .main-nav .navbar-collapse {
     border-top: none;
@@ -724,5 +731,9 @@ pre code {
   }
   .contact .social-icons a .svg-inline--fa {
     margin-top: 7px;
+  }
+
+  .about .title {
+    position: initial;
   }
 }
