@@ -1,4 +1,4 @@
-# Gastón Berruet [sitio web](https://gberruet.github.io/)
+# [Gastón Berruet](https://gberruet.github.io/)
 Analista de Sistemas & Desarrollador Web
 Análisis, diseño y desarrollo de aplicaciones web para encontrar soluciones diferenciadas en distintas necesidades de comunicación y trabajo.
 
