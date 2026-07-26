@@ -584,7 +584,8 @@ pre code {
   box-shadow: 0 16px 34px rgba(0, 0, 0, 0.35), 0 0 20px rgba(94, 234, 212, 0.15);
 }
 
-.tech-card i {
+.tech-card i,
+.tech-card svg {
   font-size: 32px;
   color: var(--accent);
 }
@@ -600,6 +601,10 @@ pre code {
   font-size: 13px;
   color: var(--text-muted);
 }
+
+.tech-laravel i, .tech-laravel svg { color: #FF2D20; }
+.tech-js i, .tech-js svg { color: #F7DF1E; }
+.tech-git i, .tech-git svg { color: #F03C2E; }
 
 @media (max-width: 768px) {
   .tech-list {
