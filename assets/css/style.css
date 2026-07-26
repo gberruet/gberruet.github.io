@@ -541,6 +541,72 @@ pre code {
   }
 }
 
+/* ======= Tech Section ======= */
+.tech {
+  padding-top: 25px;
+  padding-bottom: 90px;
+}
+
+.tech .title {
+  color: var(--text);
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.tech-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-items: stretch;
+  align-items: stretch;
+}
+
+.tech-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 24px 12px;
+  height: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.tech-card:hover {
+  border-color: var(--border-strong);
+  transform: translateY(-4px);
+  box-shadow: 0 16px 34px rgba(0, 0, 0, 0.35), 0 0 20px rgba(94, 234, 212, 0.15);
+}
+
+.tech-card i {
+  font-size: 32px;
+  color: var(--accent);
+}
+
+.tech-card img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.tech-card span {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+@media (max-width: 768px) {
+  .tech-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 /* ======= Footer ======= */
 footer {
   background: var(--bg-elevated);
